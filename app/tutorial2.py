@@ -4,10 +4,7 @@ from authorization_tokens import *
 
 import random
 
-# # Option1
-# tweet_list = [  "ted cruz zodiac killer",
-#                 "all my homies hate greg abbott",
-#                 "dan patrick sucks"]
+# # Option1: list of tweets
 #
 # tweet_list = [  "pisces superior",
 #                 "5 birthdays is a lot of birthdays",
@@ -16,7 +13,7 @@ import random
 # message = random.choice(tweet_list)
 
 
-# # Option2
+# # Option2: mad lib
 # tweet_template = "{} is {}"
 #
 # word1_list = ["pad thai", "ramen noodles", "cereal", "sushi"]
@@ -28,7 +25,7 @@ import random
 # message = tweet_template.format(word1,word2)
 
 
-# # Option3
+# # Option3: spicy mad lib
 # tweet_list = [  "{} is {}",
 #                 "{} maintains its {}-ness",
 #                 "how could u not like {}, it tastes {}"]
@@ -44,7 +41,7 @@ import random
 # message = template.format(word1,word2)
 
 
-# Option4
+# Option4: extra spicy mad lib
 tweet_template = "{} are {}"
 
 word1_list = ["hot wings", "ramen noodles"]
